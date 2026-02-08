@@ -8,9 +8,5 @@ def factorial(n):
         n -= 1
     return result
 
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <number>")
-        sys.exit(1)
-    f = factorial(int(sys.argv[1]))
-    print(f)
+f = factorial(int(sys.argv[1]))
+print(f)
