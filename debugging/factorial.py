@@ -10,7 +10,7 @@ def factorial(n):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: ./factorial.py <number>")
+        print(f"Usage: {sys.argv[0]} <number>")
         sys.exit(1)
     f = factorial(int(sys.argv[1]))
     print(f)
